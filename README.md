@@ -349,7 +349,7 @@ IFS=$'\n' sorted_posts=($(printf "%s\n" "${POSTS_ARRAY[@]}" | sort -t"|" -k2))
 
 ---
 
-**祝你使用愉快！**
+**个人的使用经验**
 ```
 
 将脚本放在www目录下，新建一个md文件夹，和ai的大部分对话可以直接导出md格式的文件，把md文件放到md文件夹内，执行boke.sh生成博客页面。
